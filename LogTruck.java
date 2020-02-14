@@ -1,21 +1,28 @@
+import java.util.Scanner;
+
 /**
-* The Log Truck program allows a user to choose the length of logs
+* The Log Truck program allows a user to choose the length of logs.
 * and output how many logs of that length the truck can carry
 * 
 * @author  Simon Cordero
 * @version 2.0
 * @since   2020-02-14 
 */
-
-import java.util.Scanner;
-
 public class LogTruck {
 
+  /**
+  * The Log Truck program allows a user to choose the length of logs.
+  * and output how many logs of that length the truck can carry
+  * 
+  * @author  Simon Cordero
+  * @version 2.0
+  * @since   2020-02-14 
+  */
   public static void main(String[] args) {
     
-    // Question Line
-    String Question = ("Enter the length of the logs in meters.");
-    System.out.println(Question);
+    // Question
+    String question = ("Enter the length of the logs in meters.");
+    System.out.println(question);
     
     // User input
     Scanner input = new Scanner(System.in);
